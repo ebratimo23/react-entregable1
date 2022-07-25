@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,500&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,300;0,500;1,400&family=Rubik:wght@300;400;500&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 500px;
+  padding: 1em;
+  border-radius: 15px;
+
+}
+
+.author{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.boton{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn{
+  width: 50px;
+  border: none;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5em;
+}
